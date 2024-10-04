@@ -15,6 +15,7 @@ public class Exemplo2 {
         System.out.println("O total da divisão é " +totalFloat);
 
 
+
         }
 
 }
