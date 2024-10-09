@@ -13,5 +13,6 @@ public class Exemplo7 {
         System.out.println("Didite seu nome:");
         String nome = scanner.nextLine();
         System.out.println("Seu nome é "+nome+" e tem " +idade+" anos" );
+
     }
 }
