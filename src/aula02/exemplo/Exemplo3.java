@@ -1,3 +1,5 @@
+package aula02.exemplo;
+
 public class Exemplo3 {
     public static void main(String[] args) {
         int num1= 3, num2= 7;
