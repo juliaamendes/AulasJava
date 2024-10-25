@@ -1,11 +1,17 @@
 package aula04_EstruturadeDeDecisoes.exercicios2;
 
+import java.util.Scanner;
+
 public class Exercicio3 {
     public static void main(String[] args) {
 
-        int codigoDeProduto = 4;
+        Scanner scanner = new Scanner(System.in);
 
-        switch (codigoDeProduto) {
+        int codigoProduto = 4;
+
+        System.out.println("Digite o codigo de um produto: ");
+
+        switch (codigoProduto) {
             case 1:
                 System.out.println("Eletronicos");
                 break;
@@ -14,7 +20,6 @@ public class Exercicio3 {
                 break;
             case 3:
                 System.out.println("Vestuário");
-
             default:{
                 System.out.println("Não existe categoria com esse código");
             }
