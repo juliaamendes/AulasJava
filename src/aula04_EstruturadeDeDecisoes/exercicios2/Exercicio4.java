@@ -9,7 +9,6 @@ public class Exercicio4 {
         double vendas = scanner.nextDouble();
         double comissao;
 
-        if (vendas< 1000){
 
 
     }
