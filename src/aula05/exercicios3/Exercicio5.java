@@ -1,3 +1,5 @@
+package aula05.exercicios3;
+
 import java.util.Scanner;
  
 public class Exercicio5 {
@@ -8,7 +10,7 @@ Scanner scanner = new Scanner(System.in);
     
         for (int i = 1; i <= 5; i++) {
             System.out.println("Digite a nota " + i + ": ");
-            double nota = entrada.nextDouble();
+            double nota = scanner.nextDouble();
             soma = soma + nota;
         }
  

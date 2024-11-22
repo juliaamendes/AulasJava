@@ -10,7 +10,7 @@ Scanner scanner = new Scanner(System.in);
         int i = numero;
  
         do {
-            fatorial * = i;
+            fatorial  = i;
             i--;
         } while (i > 0);
  
