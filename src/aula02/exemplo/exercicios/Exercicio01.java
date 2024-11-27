@@ -1,6 +1,6 @@
 package aula02.exemplo.exercicios;
 
-public class exercicio01 {
+public class Exercicio01 {
     public static void main(String[] args) {
         int idade;
         float altura;
