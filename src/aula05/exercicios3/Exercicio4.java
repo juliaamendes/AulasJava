@@ -1,3 +1,5 @@
+package aula05.exercicios3;
+
 import java.util.Scanner;
  
 public class Exercicio4 {
@@ -11,7 +13,7 @@ Scanner scanner = new Scanner(System.in);
         if (numero < 2) {
             numeroPrimo = false;
         } else {
-            for (int i = 2; i <= numero; i++) {
+            for (int i = 2; i < numero; i++) {
                 if (numero % i == 0) {
                    numeroPrimo = false;
                     break;

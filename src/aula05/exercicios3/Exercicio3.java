@@ -1,3 +1,5 @@
+package aula05.exercicios3;
+
 import java.util.Scanner;
  
 public class Exercicio3 {
@@ -10,7 +12,7 @@ Scanner scanner = new Scanner(System.in);
         int i = numero;
  
         do {
-            fatorial  = i;
+            fatorial *= i;
             i--;
         } while (i > 0);
  
