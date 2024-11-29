@@ -1,3 +1,5 @@
+package aula05.exercicios3;
+
 public class Exercicio6 {
     public static void main(String[] args) {
         int num1 = 0;
