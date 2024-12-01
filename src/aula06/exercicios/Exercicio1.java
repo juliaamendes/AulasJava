@@ -9,7 +9,7 @@ public class Exercicio1 {
         int soma = 0;
 
         
-        for (int i = 0; i < numeros.length; i++) {
+        for (int i = 0; i < numero.length; i++) {
             System.out.print("Digite um numero: ");
             numero[i] = scanner.nextInt();
             soma += numero[i]; 
