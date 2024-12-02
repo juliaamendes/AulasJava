@@ -47,7 +47,7 @@ public class Desafio2 {
             }
 
 
-            public static void exibirUsuarios () {
+            public static void exibirUsuarios() {
                 System.out.println("Exibir Usuarios");
             }
 
@@ -55,7 +55,7 @@ public class Desafio2 {
                 System.out.println("Cadastrar Usuarios");
             }
 
-            public static void atualizarUsuarios () {
+            public static void atualizarUsuarios() {
                 System.out.println("Atualizar Usuarios");
             }
         }while (opcao!=5);

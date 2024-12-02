@@ -22,5 +22,3 @@ public class Exercicio1 {
 }
 
 
-    }
-}

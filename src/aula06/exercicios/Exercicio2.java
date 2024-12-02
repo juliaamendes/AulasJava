@@ -1,4 +1,4 @@
-packpage aula06.exercicios;
+package aula06.exercicios;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class Exercicio2 {
             }
         }
 
-        if (!encontrado) {
+        if (!carEncontrado) {
             System.out.println("A letra '" + letra + "' não foi encontrada no vetor.");
         }
 
