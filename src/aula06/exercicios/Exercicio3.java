@@ -5,14 +5,13 @@ public class Exercicio3 {
         Scanner scanner = new Scanner(System.in);
 
         boolean[] valores = new boolean[8];
-        int contadorTrue = 0; // Contador para valores true
+        int contador = 0; 
 
-       
         for (int i = 0; i < valores.length; i++) {
             System.out.print("Digite 'true' ou 'false': ");
-            valores[i] = scanner.nextBoolean(); // Lê true ou false
-            if (valores[i]) { // Se for true, incrementa o contador
-                contadorTrue++;
+            valores[i] = scanner.nextBoolean(); 
+            if (valores[i]) {
+                contador++;
             }
         }
 
