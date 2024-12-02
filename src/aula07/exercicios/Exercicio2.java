@@ -19,7 +19,7 @@ public class Exercicio2 {
             int resultado = somar(numero1, numero2);
 
 
-            System.out.println("A soma dos dois números é: " + resultado);
+            System.out.println("A soma dos dois numeros é: " + resultado);
 
             scanner.close();
 
