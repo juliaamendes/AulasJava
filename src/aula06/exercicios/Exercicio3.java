@@ -17,7 +17,7 @@ public class Exercicio3 {
             }
         }
 
-        System.out.println("Quantidade de valores 'true': " + contadorTrue);
+        System.out.println("Quantidade de valores 'true': " + contador);
 
         scanner.close(); 
     }
