@@ -57,13 +57,15 @@ public class Desafio2 {
     }
 
             public static void exibirUsuarios(){
-                String tabela="";
+                StringBuilder tabela = new StringBuilder();
                 for (String[] linha :matrizCadastro){
                     for (int coluna = 0; coluna <  linha.length; coluna++){
-                        tabela += linha[coluna]+"\t\t";
+                        int tamanhoColuna = coluna == 0? 5 : (coluna==2? 12 :25);
+                        tabela.append(String.format("%-"+tamanhoColuna+"s | ", linha[coluna]));
                     }
-                    tabela += "\n";
+                    tabela.append("\n");
                 }
+                System.out.println(tabela);
             }
             public static void cadastrarUsuarios(){
                 System.out.println("Quantas pessoas voce deseja cadastrar: ");
@@ -81,16 +83,26 @@ public class Desafio2 {
 
                     for (int coluna = 1; coluna < cabecalho.length; coluna++) {
                         System.out.print(cabecalho[coluna]+":");
-                        matrizCadastro[linha][coluna] = scanner.nextLine();
+                        novaMatriz[linha][coluna] = scanner.nextLine();
                     }
                 }
                 matrizCadastro=novaMatriz;
 
             }
             public static void atualizarUsuarios(){
-                System.out.println("Atualizar Usuarios");
+                System.out.println("\nDigite o id do usuarios que deseja atualizar:");
+                int idEscolhido = scanner.nextInt();
+                scanner.nextLine();
+                System.out.println("Atualize as informaçãoes a seguir:");
+
+                System.out.println(cabecalho[0]+ " - "+ idEscolhido);
+                for (int coluna = 1; coluna < cabecalho.length; coluna++) {
+                    System.out.println(cabecalho[coluna] + " : ");
+
+                }
             }
             public static void deletarUsuarios() {
+
             System.out.println("Atualizar Usuarios");
 
     }
