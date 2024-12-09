@@ -98,8 +98,10 @@ public class Desafio2 {
                 System.out.println(cabecalho[0]+ " - "+ idEscolhido);
                 for (int coluna = 1; coluna < cabecalho.length; coluna++) {
                     System.out.println(cabecalho[coluna] + " : ");
+                    matrizCadastro[idEscolhido][coluna] = scanner.nextLine();
 
                 }
+                exibirUsuarios();
             }
             public static void deletarUsuarios() {
 

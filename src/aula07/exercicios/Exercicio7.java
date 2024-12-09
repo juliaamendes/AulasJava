@@ -1,4 +1,5 @@
-packpage aula07.exercicios
+package aula07.exercicios;
+
 import java.util.Scanner; 
 
 public class Exercicio7 {
